@@ -6,7 +6,7 @@ public class UserInput : MonoBehaviour
 {
     public Rigidbody2D ballRigidbody2D;
     public Vector2 direction;
-
+    public Vector2 yDirection;
 
     void Start()
     {
@@ -26,7 +26,7 @@ public class UserInput : MonoBehaviour
             ballRigidbody2D.AddForce(-direction, ForceMode2D.Force);
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetButtonDown("Jump"))
         {
             ballRigidbody2D.AddForce(yDirection, ForceMode2D.Force);
         }

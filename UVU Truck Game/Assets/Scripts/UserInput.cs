@@ -16,14 +16,19 @@ public class UserInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (UserInput.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             ballRigidbody2D.AddForce(direction, ForceMode2D.Force);
         }
 
-        if (UserInput.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             ballRigidbody2D.AddForce(-direction, ForceMode2D.Force);
+        }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            ballRigidbody2D.AddForce(yDirection, ForceMode2D.Force);
         }
     }
 }

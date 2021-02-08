@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\falte\3D Objects\DGM 1660\DMG 1610\DGM 1610Spring21\TypeConversion2" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TypeConversion2" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="TypeConversion2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="TypeConversion2.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TypeConversion2.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\falte\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\falte\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_TypeConversion2.1476037183.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -4,7 +4,8 @@
     <list default="true" id="99298e59-e05a-4de2-9ec2-b1d6f5461de2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UVU Truck Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UVU Truck Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UVU Truck Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UVU Truck Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Counter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Counter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserInput.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,8 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Accounter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserInput.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Counter.cs" />
     </changedPaths>
   </component>
@@ -69,6 +72,7 @@
       <updated>1612374615816</updated>
       <workItem from="1612374659251" duration="2000" />
       <workItem from="1612804053637" duration="2550000" />
+      <workItem from="1612977538706" duration="1508000" />
     </task>
     <servers />
   </component>

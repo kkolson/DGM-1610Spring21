@@ -7,6 +7,7 @@
         <e p="Scripts" t="Include">
           <e p="BallGenerator.cs" t="Include" />
           <e p="Counter.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="MainPlayer.cs" t="Include" />
           <e p="UserInput.cs" t="Include" />
         </e>

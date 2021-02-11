@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class Counter : MonoBehaviour
 {
     public int creditValue = 3;
-    public int numberCount;
+    public IntData numberCount;
     public Text counterText;
     
     void OnTriggerEnter2d()
     {
-        numberCount += creditValue;
+        numberCount.value += creditValue;
         counterText.text = numberCount.ToString();
         gameObject.SetActive(false);
     }

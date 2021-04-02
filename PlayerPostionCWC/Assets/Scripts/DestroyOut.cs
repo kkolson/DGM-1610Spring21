@@ -23,6 +23,7 @@ public class DestroyOut : MonoBehaviour
         }
         else if (transform.position.z < lowBound)
         {
+            Debug.Log("Old McDonald HAD a farm");
             Destroy(gameObject);
         }
 

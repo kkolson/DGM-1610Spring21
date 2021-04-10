@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class MoveLeft : MonoBehaviour
@@ -10,6 +11,7 @@ public class MoveLeft : MonoBehaviour
     private float startDelay = 2;
     private float repeatRate = 2;
     private PlayerController _playerControllerScript;
+    private float leftBound = -15;
    
     void Start()
     {
@@ -27,6 +29,11 @@ public class MoveLeft : MonoBehaviour
         if (_playerControllerScript.gameOver == false)
         {
             transform.Translate(Vector3.left * (Time.deltaTime * speed));
+        }
+
+        if (transform.position.x < leftBound && gameObject.CompareTag("Obstacle"))
+        {
+            Destroy(gameObject);
         }
     }
 }

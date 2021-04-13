@@ -5,11 +5,15 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     private PlayerController _playerControllerScript;
+    public GameObject obstaclePrefab;
+    private Vector3 spawnPos = new Vector3(25, 0, 0);
+    private float startDelay = 2;
+    private float repeatRate = 2;
     
     void Start()
     {
+        _playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
         InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
-        _playerControllerScript = gameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     void SpawnObstacle()
